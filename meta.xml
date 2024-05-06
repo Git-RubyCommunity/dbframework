@@ -1,0 +1,10 @@
+<meta>
+	<info author="rubycommunity" type="script" name="dbframework" />
+	
+	<script src="config.lua" type="server" />
+	<script src="s_dbframework.lua" type="server" />
+
+	<export function="executeQuery" type="server"/>
+	<export function="connectToDatabase" type="server"/>
+	
+</meta>
